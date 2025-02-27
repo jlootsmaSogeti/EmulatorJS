@@ -1,8 +1,7 @@
 name: Make docker image
 
-on:
-  release:
-    types: [created]
+on: push
+  
 
 jobs:
   build:
